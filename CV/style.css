@@ -1,0 +1,95 @@
+.style-body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.main-header{
+    text-align:center; 
+    background-color:#001747;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.header-content{
+    color: white;
+    display:inline-block; 
+    font-weight: 700;
+    font-size: 28pt;
+    padding-right: 75px;
+}
+.header-contenttwo{
+    color: white;
+    display:inline-block; 
+    font-weight: 400;
+    font-size: 14pt;
+    padding-left: 75px;
+}
+
+.mini-header{
+    color: black;
+    height: 25px;
+    text-align: center;
+    background-color:#70D6BC;
+    font-size: 14pt;
+    font-weight: 500;   
+    padding: 5px;
+}
+.div-section-one{
+    width: 75%;
+    display: inline-block;
+    vertical-align: top;
+
+}
+.h2-style{
+    font-size: 21pt;
+}
+.style-dt{
+    font-size: 13pt;
+    font-weight: 550;
+    padding-left: 5px;
+    padding: 5px;
+}
+.style-dd{
+    font-size: 12pt;
+    margin: 6;
+    padding: 8px;
+
+}
+.div-section-two{
+    width: 75%;
+    display: inline-block;
+}
+.div-section-three{
+    width: 75%;
+    display: inline-block;
+}
+.style-li{
+    font-size: 12pt;
+    margin: 6;
+    padding: 8px;
+    list-style-type: disc;
+}
+.div-section-four{
+    width: 75%;
+    display: inline-block;
+}
+.style-link{
+    text-decoration: none;
+    color: black;
+}
+.style-img{
+    height: 250px;
+    width:  250px;
+    display: inline-block;
+
+}
+.div-section{
+    padding-top: 50px;
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.div-img{
+    display: inline-block;
+    width: 20%; 
+
+    
+}
