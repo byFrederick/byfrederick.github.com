@@ -5,68 +5,119 @@
     Gris medio oscuro: #8C8C8C
     Gris claro: #F2F2F2
 */
+html{
+    font-family: 'Aleo', serif;
+}
 .body-style{
     height: 100vh;
-    background: #000000;  
-    background: -webkit-linear-gradient(to right, #434343, #000000);  
-    background: linear-gradient(to right, #434343, #000000);
-}
-.div-contenedor{
-    
-    display: flex;
-    align-items: center;
-    justify-items: center;
-    
+    background: #232526; 
+    background: -webkit-linear-gradient(to right, #414345, #232526);  
+    background: linear-gradient(to right, #414345, #232526); 
 }
 .div-img{
     text-align: center;
-    margin: 25px;   
+    margin: 25px;
+    display: block;   
 }
 .img-style{
-    width: 250px;
-    height: 100px;;
+    width: 200px;
+    height: 80px;
 }
 .div-contenido{
-    max-width: 650px;
-    max-height: 350px;
+    max-width: 950px;
+    max-height: 600px;
     width: 100%;
     height: 100%;
     background-color: #FFFFFF;  
-    border:solid 3px gray;
-    margin-left: 350px;
-    margin-top: 50px;
+    margin: 40px 50px 30px 200px;
+    box-shadow: 0px 3px 6px 2px rgba(0, 0, 0, 0.16), 0px 3px 6px 2px rgba(0, 0, 0, 0.23);
+    border-radius: 15px;
 }
 .main-header{
 
 }
 .h1-style{
-
+    padding: 30px 0px 0px 0px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 .table-style{
-
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    font-size: 16pt;
+    border-spacing: 0;
 }
 .thead-style{
-
+    
 }
 .th-style{
-
+    font-weight: 400;
+    padding: 1em;
 }
 .tbody-style{
 
 }
 .tr-style{
-
+    font-weight: 300;
 }
-.td-style{
-    border: solid 1px;
+.tr-style:nth-child(even){
+    background-color: #D8D8D8;
     
 }
-.footer-style{
-
+.td-style{
+    padding: 1em;
 }
-.creditos-style{
+.footer-style{
 
 }
 .icon-star{ 
     color: #FFBF00;
 }
+.creditos{
+    background-color: #999999;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    
+}
+.link-style{
+    text-decoration: none;
+    color: #D91A1A;
+}
+.cover-img{ 
+    width: 350px;
+    height: 175px;
+    border-radius: 8px;
+}
+.coverr-img{
+    width: 200px;
+    height: 250px;
+    border-radius: 8px;
+}
+.cover-style{
+    text-align: center;
+}
+.title-item{
+    text-transform: uppercase;
+    font-weight: 700;
+    border-bottom: solid 2px #848484;
+    padding: 1em 0 0.8em 0.5em;
+    margin: 30px;
+}
+.posicion{
+    background-color: #848484;
+    border-radius: 6px;
+    padding: 0.3em;
+    margin: 0.3em;
+}
+.botton{
+    margin: 1em 1em 1em 420px;
+}
+.descripcion{
+    padding: 0.5em 1em 0 1em;
+}
+
