@@ -66,7 +66,7 @@ html{
 
 }
 .tr-style{
-    font-weight: 400;
+    font-weight: 300;
 }
 .tr-style:nth-child(even){
     background-color: #D8D8D8;
