@@ -23,6 +23,9 @@ html{
     height: 80px;
     
 }
+img{
+    width: 100%;
+}
 .div-contenedor{
     display: flex;
     align-items: center;
