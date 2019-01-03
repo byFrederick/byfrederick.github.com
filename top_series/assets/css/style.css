@@ -140,6 +140,15 @@ a:hover{
         overflow: scroll;
         margin: 0 0 1.5em 0;
     }
+    td{
+        display: block;
+        font-weight: 700;
+        text-align: center;
+    }
+    th{
+        display: none;
+    }
+    
 }
 
 
