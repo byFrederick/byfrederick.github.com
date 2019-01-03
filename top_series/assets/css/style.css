@@ -24,14 +24,17 @@ html{
     height: 80px;
 }
 .div-contenido{
+    position: relative;
+    left: 165px;
     max-width: 950px;
     max-height: 600px;
     width: 100%;
     height: 100%;
     background-color: #FFFFFF;  
-    margin: 40px 50px 30px 200px;
+    margin: 50px;
     box-shadow: 0px 3px 6px 2px rgba(0, 0, 0, 0.16), 0px 3px 6px 2px rgba(0, 0, 0, 0.23);
     border-radius: 15px;
+    
 }
 .main-header{
 
@@ -75,15 +78,6 @@ html{
 .icon-star{ 
     color: #FFBF00;
 }
-.creditos{
-    background-color: #999999;
-    text-align: center;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 80px;
-    
-}
 .link-style{
     text-decoration: none;
     color: #D91A1A;
@@ -115,9 +109,24 @@ html{
     margin: 0.3em;
 }
 .botton{
-    margin: 1em 1em 1em 420px;
+    position: relative;
+    left: 400px;
+    bottom: 5px;
+
 }
 .descripcion{
     padding: 0.5em 1em 0 1em;
 }
+.home{
+    margin: 0 20px 0 0;
+    color: black;
+}
+.cursor{
+    cursor: pointer;
+}
+a:hover{
+    opacity: 0.6;
+}
+
+
 
