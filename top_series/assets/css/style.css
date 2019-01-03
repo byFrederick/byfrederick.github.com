@@ -66,7 +66,7 @@ html{
 
 }
 .tr-style{
-    font-weight: 300;
+    font-weight: 400;
 }
 .tr-style:nth-child(even){
     background-color: #D8D8D8;
@@ -107,15 +107,19 @@ html{
 }
 .posicion{
     background-color: #848484;
-    border-radius: 6px;
-    padding: 0.3em;
+    border-radius: 3px;
+    padding: 0.1em;
     margin: 0.3em;
 }
 .botton{
-    position: relative;
-    left: 400px;
-    bottom: 5px;
-
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #D91A1A;
+    font-weight: 400;
+}
+.botton-series{
+    text-align: center;
+    padding: 0.01em 0 0.5em 0;
 }
 .descripcion{
     padding: 0.5em 1em 0 1em;
