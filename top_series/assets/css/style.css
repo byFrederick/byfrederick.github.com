@@ -40,7 +40,8 @@ img{
     background-color: #FFFFFF;  
     box-shadow: 0px 3px 6px 2px rgba(0, 0, 0, 0.16), 0px 3px 6px 2px rgba(0, 0, 0, 0.23);
     border-radius: 15px; 
-    margin: 0 0 3em 0;
+    overflow: scroll;
+    margin: 0 0 1.5em 0;
 }
 .main-header{
 
@@ -68,19 +69,26 @@ img{
 .th-style{
     font-weight: 400;
     padding: 1em;
+    display: none;
 }
 .tbody-style{
 
 }
 .tr-style{
-    font-weight: 300;
+
 }
 .tr-style:nth-child(even){
     background-color: #D8D8D8;
-    
 }
 .td-style{
     padding: 1em;
+    display: block;
+    font-weight: 400;
+    text-align: center;
+    width: auto;
+}
+.td-style:nth-last-of-type(5){
+    font-weight: bold;    
 }
 .footer-style{
 
@@ -91,6 +99,9 @@ img{
 .link-style{
     text-decoration: none;
     color: #D91A1A;
+}
+.link{ 
+    font-size: 10pt;
 }
 .cover-img{ 
     width: 350px;
@@ -126,7 +137,7 @@ img{
 }
 .botton-series{
     text-align: center;
-    padding: 0.01em 0 0.5em 0;
+    margin: 1em 0 1em 0;
 }
 .descripcion{
     padding: 0.5em 1em 0 1em;
@@ -142,21 +153,22 @@ a:hover{
     opacity: 0.6;
 
 }
-@media (max-width:500px){
+@media (min-width:800px){
     .div-contenido{
-        overflow: scroll;
-        margin: 0 0 1.5em 0;
+        margin: 0 0 3em 0;
+        overflow: auto;
     }
-    td{
-        display: block;
-        font-weight: 700;
-        text-align: center;
+    .td-style{
+        text-align: left;
+        display: table-cell;
+        font-weight: 300;
     }
-    th{
-        display: none;
+    .td-style:nth-last-of-type(5){
+        font-weight: 400;
+    }
+    .th-style{
+        display: table-cell;
+        font-weight: bold;
     }
     
 }
-
-
-
