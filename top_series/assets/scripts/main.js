@@ -44,7 +44,7 @@ console.log("Hola Mundo");
          contenido.classList.add("bounceOutUp");        
          
          //Tiempo de animación para volver a la pantalla primcipal
-         setInterval(function(){
+         setTimeout(function(){
             location.href = "../index.html";
          },600)
      })
